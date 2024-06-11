@@ -1,0 +1,21 @@
+.HeaderContainer{
+    border: 2px solid red;
+    height: 15vh;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+   
+}
+.logo{
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    text-transform: capitalize;
+   color: var(--white-color);
+}
+.emoji svg{
+    font-size: 2rem;
+    fill: var(--white-color);
+}
