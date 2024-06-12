@@ -1,21 +1,23 @@
 import React from 'react'
 import Time from '../../Utils/Time'
 import './Hero.css'
+import Names from '../../Data/Names'
 import wave from "../../assets/wave.svg"
 function Hero() {
     const now =Time();
+
   return (
     <div>
       <div className="HeroContainer">
         <div className="welcomeBox">
-        <p>good {now}</p>
-        <p>who's next?</p>
+        <p>good {now},  who's next?</p>
+       
         </div>
         <div className="output">
           <p>placeholder</p>
         </div>
         <div className="generate-btn">
-          <button>generate</button>
+          <button >generate</button>
         </div>
         
         
